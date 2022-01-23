@@ -17,7 +17,7 @@ function App() {
         <Header />
         <main className='container content'>
           <Switch>
-            <Route path='/ood-project-react' component={Home} exact />
+            <Route path='/food-project-react' component={Home} exact />
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
             <Route path='/category/:name' component={Category} />
